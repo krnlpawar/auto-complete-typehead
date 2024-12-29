@@ -1,0 +1,36 @@
+.typeahead-container {
+	position: relative;
+	width: 300px;
+	margin: 20px auto;
+  }
+  
+  .typeahead-input {
+	padding: 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+  }
+  
+  .typeahead-suggestions {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	list-style: none;
+	/* display: none; */
+  }
+  
+  .typeahead-suggestions li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+  }
+  
+  .typeahead-suggestions li:hover {
+	background-color: #f0f0f0;
+  }
